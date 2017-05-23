@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WordCounter</string>
+    <string name="input_text_hint">Please enter your text</string>
+    <string name="button_count_words">Count Words</string>
 </resources>
