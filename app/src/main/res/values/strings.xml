@@ -2,4 +2,6 @@
     <string name="app_name">WordCounter</string>
     <string name="input_text_hint">Please enter your text</string>
     <string name="button_count_words">Count Words</string>
+    <string name="counter_hint">00</string>
+    <string name="word_count_details">Word Count Summary</string>
 </resources>

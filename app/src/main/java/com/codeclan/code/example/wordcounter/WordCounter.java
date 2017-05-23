@@ -1,6 +1,10 @@
 package com.codeclan.code.example.wordcounter;
 
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
 
 /**
  * Created by user on 23/05/2017.
@@ -39,4 +43,5 @@ public class WordCounter {
 
         return this.wordCountEach;
     }
+
 }
