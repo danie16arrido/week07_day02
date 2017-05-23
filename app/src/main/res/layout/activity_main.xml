@@ -36,12 +36,17 @@
 
     <EditText
         android:id="@+id/display_words_count"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="301dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
+        android:hint="Here you will get the counter"
         android:inputType="textAutoCorrect|number"
-        android:text="666"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="379dp" />
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_count_words" />
 </android.support.constraint.ConstraintLayout>
