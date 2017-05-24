@@ -1,5 +1,7 @@
 package com.codeclan.code.example.wordcounter;
 
+import android.content.Intent;
+import android.support.v4.app.ShareCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -35,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
         Log.d(getClass().toString(), "the count was " + wordCounter.countWords());
         displayWordsCount.setText(result);
         details.setText(summary);
+
+        //Passing data to another screen
+
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("wordCount", result);
+
     }
 
 }
